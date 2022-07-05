@@ -199,6 +199,7 @@ document.addEventListener("DOMContentLoaded", function() {
             document.querySelector('#order-form').classList.add('hide');
             document.querySelector('.cart-total').classList.add('hide');
             discountIsActive = false;
+            document.querySelector('form').reset();
             Discound();
         }
     }
