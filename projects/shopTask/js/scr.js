@@ -232,7 +232,11 @@ document.addEventListener("DOMContentLoaded", function() {
     }
 
     function renderNumb(element, data) {
-        element.innerText = data;
+        if (element.classList.contains('total-price')) {
+            element.innerText = data + " ₽";
+        } else {
+            element.innerText = data;
+        }
     }
 
 
