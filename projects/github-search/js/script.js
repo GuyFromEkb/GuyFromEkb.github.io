@@ -222,7 +222,7 @@ document.addEventListener('DOMContentLoaded', () => {
         const item =
             `
             <div class="no-result">
-                <h2>К сожелению ничего не найдено</h2>
+                <h2>К сожалению ничего не найдено</h2>
             </div>
              `;
         document.querySelector('.result').insertAdjacentHTML('beforeend', item);
