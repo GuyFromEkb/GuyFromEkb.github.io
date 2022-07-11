@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/static/css/main.b1d6626d.chunk.css",
+    "main.js": "/static/js/main.f34942a6.chunk.js",
+    "main.js.map": "/static/js/main.f34942a6.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.0140d7b4.js",
+    "runtime-main.js.map": "/static/js/runtime-main.0140d7b4.js.map",
+    "static/js/2.92024bb0.chunk.js": "/static/js/2.92024bb0.chunk.js",
+    "static/js/2.92024bb0.chunk.js.map": "/static/js/2.92024bb0.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/main.b1d6626d.chunk.css.map": "/static/css/main.b1d6626d.chunk.css.map",
+    "static/js/2.92024bb0.chunk.js.LICENSE.txt": "/static/js/2.92024bb0.chunk.js.LICENSE.txt",
+    "static/media/error.42292aa1.gif": "/static/media/error.42292aa1.gif",
+    "static/media/mjolnir.61f31e18.png": "/static/media/mjolnir.61f31e18.png",
+    "static/media/thor.533e3a5e.jpeg": "/static/media/thor.533e3a5e.jpeg",
+    "static/media/vision.067d4ae1.png": "/static/media/vision.067d4ae1.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.0140d7b4.js",
+    "static/js/2.92024bb0.chunk.js",
+    "static/css/main.b1d6626d.chunk.css",
+    "static/js/main.f34942a6.chunk.js"
+  ]
+}
