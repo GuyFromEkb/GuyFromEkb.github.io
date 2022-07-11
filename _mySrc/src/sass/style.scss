@@ -1,0 +1,44 @@
+@import 'libs/bootstrap-reboot.min';
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;700&display=swap');
+@import 'base/variables';
+@import 'base/mixins';
+* {
+    font-family: 'Source Sans Pro', sans-serif;
+    // font-size: 18px;
+    // font-weight: 500;
+    margin: 0;
+    padding: 0;
+    // color: #fff;
+}
+
+.hide {
+    visibility: hidden;
+    opacity: 0;
+}
+
+.show {
+    visibility: visible;
+    opacity: 1;
+}
+
+body {
+    background: linear-gradient(90deg, #454545, #212121);
+}
+
+button {
+    // outline: none!important;
+    // transition-duration: .2s;
+    // font-size: 16px;
+    // &:active {
+    //     transform: scale(1.02)
+    // }
+}
+
+.container {
+    max-width: 1366px;
+    margin: 0 auto;
+}
+
+@import 'blocks/header';
+@import 'blocks/promo';
+@import 'blocks/project';

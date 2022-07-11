@@ -1,0 +1,60 @@
+.promo {
+	margin-top: 30px;
+	&__list {
+		padding: 0;
+		list-style-type: none;
+		display: grid;
+		grid-template-columns: repeat(auto-fill, 419px);
+		gap: 10px;
+	}
+	&__item {
+		position: relative;
+		overflow: hidden;
+		border-radius: 30px;
+		&:hover {
+			.promo__overlay {
+				visibility: visible;
+				opacity: 1;
+			}
+		}
+	}
+	&__subtitle {
+
+		font-size: 24px;
+        text-shadow: 2px 2px 20px rgb(0, 0, 0);
+		color: #8ffdeb;
+		margin: 20px 0;
+	}
+	&__overlay {
+		background: linear-gradient(
+			90deg,
+			rgba(53, 53, 53, 0.8),
+			rgba(33, 33, 33, 0.8)
+		);
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+		visibility: hidden;
+		opacity: 0;
+		// transition: all .4s;
+		transition: all 0.4s ease-in-out;
+		h2 {
+			color: #fff;
+		}
+		h3 {
+			color: #8f8f8f;
+		}
+		.loves {
+			display: none;
+		}
+	}
+	&__info {
+		position: absolute;
+		bottom: 20px;
+		left: 50%;
+		transform: translateX(-50%);
+		width: 300px;
+	}
+}
