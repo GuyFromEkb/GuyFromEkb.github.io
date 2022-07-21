@@ -1,11 +1,12 @@
 .promo {
 	margin-top: 30px;
 	&__list {
+		justify-content: center;
 		padding: 0;
 		list-style-type: none;
 		display: grid;
 		grid-template-columns: repeat(auto-fill, 419px);
-		gap: 10px;
+		gap: 20px;
 	}
 	&__item {
 		position: relative;
@@ -19,9 +20,8 @@
 		}
 	}
 	&__subtitle {
-
 		font-size: 24px;
-        text-shadow: 2px 2px 20px rgb(0, 0, 0);
+		text-shadow: 2px 2px 20px rgb(0, 0, 0);
 		color: #8ffdeb;
 		margin: 20px 0;
 	}
